@@ -1,0 +1,11 @@
+{
+  "name": "cookie-storage-domain",
+  "version": "1.0.0",
+  "description": "Cookie store on domain level",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ninja",
+  "license": "ISC"
+}
