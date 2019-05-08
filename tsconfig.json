@@ -5,6 +5,19 @@
     "module": "commonjs",
     "strict": true,
     "noImplicitAny": false,
-    "esModuleInterop": true
-  }
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "paths": {
+    "*": [
+      "types/*"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
 }
