@@ -17,6 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/marcus1812/cookie-storage-domain.git"
   },
+  "files": ["lib/**/*"],
   "keywords": [],
   "author": "",
   "license": "ISC",
