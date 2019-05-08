@@ -1,6 +1,6 @@
 {
   "name": "cookie-storage-domain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,7 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/marcus1812/cookie-storage-domain.git"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
