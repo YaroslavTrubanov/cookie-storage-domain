@@ -97,7 +97,10 @@ class CookieStorage {
     }
     setItem(key: string, value: string) {
         const safeKey = encodeURIComponent(key);
-        document.cookie = `${safeKey}=${encodeURIComponent(value)};domain=${this.getCurrentCookieDomain()};path=/`; // to be accessed from all subdomains
+        let now = new Date();
+        now.setFullYear(now.getFullYear() + 1);
+        const expires = now.toUTCString();
+        document.cookie = `${safeKey}=${encodeURIComponent(value)};domain=${this.getCurrentCookieDomain()};expires=${expires};path=/;`; // to be accessed from all subdomains
     }
     removeItem(key: string) {
         const safeKey = encodeURIComponent(key);
